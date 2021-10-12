@@ -180,6 +180,7 @@ a {
     margin-bottom: 32px;
 }
 
+/* prize section */
 .prize-image {
     width: 50%;
     height: 630px;
@@ -195,4 +196,33 @@ a {
 
 .text-white {
     color: white;
+}
+
+/* latinx section  */
+.latinx-image {
+    width: 50%;
+    height: 420px;
+}
+
+.latinx-image img {
+    height: 100%;
+}
+
+.content-wrapper > h2 {
+    font-size: 24px;
+    margin-bottom: 23px;
+}
+
+.content-wrapper .banner-text {
+    font-size: 19px;
+}
+
+/* nitro section */
+
+.nitro-banner {
+    background-color: #ebdbc8;
+}
+
+.text-bucks {
+    color: #1e3932;
 }
