@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -146,11 +147,11 @@ a {
 
 .banner-image {
     width: 50%;
-    height: 650px;
+    display: flex;
 }
 
 .banner-image img {
-    height: 100%;   
+    width: 100%;   
 }
 .banner-info {
     width: 50%;
@@ -162,11 +163,13 @@ a {
 
 .content-wrapper {
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     max-width: 75%;
     text-align: center;
+
 }
 
 .content-wrapper > h1 {
@@ -181,15 +184,6 @@ a {
 }
 
 /* prize section */
-.prize-image {
-    width: 50%;
-    height: 630px;
-}
-
-.prize-image img {
-    height: 100%;
-}
-
 .prize-banner {
     background-color: #1e3932;
 }
@@ -199,15 +193,6 @@ a {
 }
 
 /* latinx section  */
-.latinx-image {
-    width: 50%;
-    height: 420px;
-}
-
-.latinx-image img {
-    height: 100%;
-}
-
 .content-wrapper > h2 {
     font-size: 24px;
     margin-bottom: 23px;
@@ -225,4 +210,68 @@ a {
 
 .text-bucks {
     color: #1e3932;
+}
+/* reward section */
+.reward-card {
+    width: 50%;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #006241;
+}
+
+
+.reward-image {
+    width: 100%;
+}
+
+.reward-image img {
+    width: 100%;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}
+
+.mt-20 {
+    margin-top: 26px;
+}
+
+.reward-card:first-child{
+    margin-right: 16px;
+}
+
+.reward-card:last-child{
+    margin-left: 16px;
+}
+
+/* footer one section */
+.footer-one {
+    height: 150px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+    margin-bottom: 32px;
+}
+
+.footer-one-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.footer-text > p {
+    padding: 3.8rem 0;
+    max-width: 65%;
+    text-align: center;
+    line-height: 1.75;
 }
