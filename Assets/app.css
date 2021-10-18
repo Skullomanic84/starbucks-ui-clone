@@ -281,9 +281,32 @@ a {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid;
+    
 }
 
 .footer-col {
     display: flex;
     align-items: flex-start;
+}
+
+.footer-title > h2 {
+    font-size: 19px;
+    margin-bottom: 24px;
+}
+
+.footer-link ul {
+    list-style-type: none;
+}
+
+.footer-link ul li {
+    color: rgba(0,0,0,.5);
+    padding: 8px 0;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.footer-social {
+     max-width: 1440px;
+     margin: 0 auto;
 }
